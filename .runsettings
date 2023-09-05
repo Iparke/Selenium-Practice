@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <!-- Configurations that affect the Test Framework -->
+    <RunConfiguration>
+        <!-- Path relative to directory that contains .runsettings file-->
+        <ResultsDirectory>.\TestResults</ResultsDirectory>
+
+        <!-- Specify timeout in milliseconds. A valid value should be greater than 0 -->
+        <TestSessionTimeout>1200000</TestSessionTimeout>
+
+        <!-- true or false -->
+        <!-- Value that specifies the exit code when no tests are discovered -->
+        <TreatNoTestsAsError>true</TreatNoTestsAsError>
+    </RunConfiguration>
+
+    <!-- Parameters used by tests at run time -->
+    <TestRunParameters>
+        <Parameter name="applicationUrl" value="https://www.saucedemo.com/" />
+  </TestRunParameters>
+</RunSettings>
